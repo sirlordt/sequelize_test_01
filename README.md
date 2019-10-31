@@ -8,7 +8,7 @@
   
 In the file **config.json is the config for the database**, password, database name
 
-Check the code in the file **index.ts**, functions **selectInnerJoin**, **selectInnerJoinFixedManually**, explain more.
+Check the code in the file **src/index.ts**, functions **selectInnerJoin**, **selectInnerJoinFixedManually**, explain more.
 
 PROPORSE FEATURE
 
@@ -27,7 +27,7 @@ ATTACH MULTIPLE MODELS TO SQL STATEMENT
 
 OUTPUT (sequelize model Actor and Movie mapped in the result):
 
-```json
+```
 [
   [ //Row 1
     Movie {
